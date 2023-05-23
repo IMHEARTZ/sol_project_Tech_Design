@@ -1,7 +1,7 @@
 function Style_card({
   description,
   style,
-  imageURL = "https://placehold.co/865x543",
+  imageURL = "https://placehold.co/965x543",
 }) {
   return (
     <div className="Style_card_wrapper">

@@ -4,7 +4,6 @@ import Sorting_box from "@/components/Sorting_box";
 import Head from "next/head";
 import Style_card from "@/components/Style_card";
 import Card from "@/components/Card";
-import Card_horizontal from "@/components/Card_horizontal";
 import Botnav from "@/components/Botnav";
 
 function Minimal() {
@@ -14,7 +13,7 @@ function Minimal() {
         <title>Tech Dsgn Exp</title>
       </Head>
       {/* <Nav /> */}
-      <Topnav />
+      <Topnav link="/" />
       <div class="Heading">
         <h1>Minimal Style</h1>
       </div>
@@ -22,16 +21,16 @@ function Minimal() {
         <Style_card
           style="Minimal Style"
           description="Simple decoration style emphasis on the use of minimal pieces of furniture. Each piece must be very useful. It also must not leave a simple design."
-          imageURL="https://placehold.co/865x543"
+          imageURL="/img/Minimal_Pic.svg"
         />
       </a>
       <div class="card-row">
-        <a href="/card/one">
+        <a>
           <Card
-            title="A small modern bedroom that can show off your right side."
-            style="cozy"
+            title="Idea to decorate a 25 m² room to become your dream room."
+            style="Minimal"
             roomsize="25m²"
-            imageURL=" /img/Room_1.svg"
+            imageURL=" /img/Room_6.svg"
           />
         </a>
         <a>
@@ -39,7 +38,7 @@ function Minimal() {
             title="Flexible living room with space to sleep and relax."
             style="Minimal"
             roomsize="28m²"
-            imageURL=" /img/Room_2.svg"
+            imageURL=" /img/Room_7.svg"
           />
         </a>
         <a>
@@ -47,7 +46,7 @@ function Minimal() {
             title="A modern space full of calming bedroom ideas."
             style="Minimal"
             roomsize="30 m²"
-            imageURL=" /img/Room_3.svg"
+            imageURL=" /img/Room_9.svg"
           />
         </a>
       </div>

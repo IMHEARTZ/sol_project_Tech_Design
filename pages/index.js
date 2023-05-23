@@ -12,8 +12,7 @@ function Home() {
       <Head>
         <title>Tech Dsgn Exp</title>
       </Head>
-      {/* <Nav /> */}
-      <Topnav />
+      <Topnav link="/" />
       <div class="Welcome_row">
         <div class="Welcome_text_wrapper">
           <h1>The best place to find your dream house</h1>
@@ -35,12 +34,12 @@ function Home() {
         <h1>Recomended for you</h1>
       </div>
       <div class="card-row">
-        <a href="/card/one">
+        <a>
           <Card
             title="A small modern bedroom that can show off your right side."
             style="cozy"
             roomsize="25m²"
-            imageURL="/img/image 1.svg"
+            imageURL="/img/Room_1.svg"
           />
         </a>
         <a>
@@ -48,15 +47,15 @@ function Home() {
             title="Flexible living room with space to sleep and relax."
             style="Minimal"
             roomsize="28m²"
-            imageURL="/img/image 1.svg"
+            imageURL="/img/Room_2.svg"
           />
         </a>
-        <a>
+        <a href="/Room_Detail_3">
           <Card
             title="A modern space full of calming bedroom ideas."
             style="Minimal"
             roomsize="30 m²"
-            imageURL="/img/image 1.svg"
+            imageURL="/img/Room_3.svg"
           />
         </a>
         <a>
@@ -64,7 +63,7 @@ function Home() {
             title="A flexible room with space for your style."
             style="Cozy"
             roomsize="28 m²"
-            imageURL="/img/image 1.svg"
+            imageURL="/img/Room_4.svg"
           />
         </a>
         <a>
@@ -72,7 +71,7 @@ function Home() {
             title="A light, airy living room with space for personality."
             style="Minimal"
             roomsize="28 m²"
-            imageURL="/img/image 1.svg"
+            imageURL="/img/Room_5.svg"
           />
         </a>
         <a>
@@ -80,7 +79,7 @@ function Home() {
             title="A space where creativity blooms."
             style="Cozy"
             roomsize="30 m²"
-            imageURL="/img/image 1.svg"
+            imageURL="/img/Room_6.svg"
           />
         </a>
       </div>
@@ -98,12 +97,12 @@ function Home() {
         </div>
       </div>
       <div class="card-row">
-        <a href="/card/one">
+        <a>
           <Card
             title="A space where creativity blooms."
             style="Cozy"
             roomsize="30 m²"
-            imageURL="/img/image 1.svg"
+            imageURL="/img/Room_7.svg"
           />
         </a>
         <a>
@@ -111,7 +110,7 @@ function Home() {
             title="A space where creativity blooms."
             style="Cozy"
             roomsize="30 m²"
-            imageURL="/img/image 1.svg"
+            imageURL="/img/Room_8.svg"
           />
         </a>
         <a>
@@ -119,7 +118,7 @@ function Home() {
             title="A space where creativity blooms."
             style="Cozy"
             roomsize="30 m²"
-            imageURL="/img/image 1.svg"
+            imageURL="/img/Room_9.svg"
           />
         </a>
       </div>
@@ -131,22 +130,26 @@ function Home() {
           <h2>Browse all</h2>
         </div>
       </div>
-      <Card_horizontal
-        title="Minimal Style"
-        description="Simple decoration style emphasis on the use of minimal pieces of furniture. Each piece must be very useful. It also must not leave a simple design."
-        roomsize_x1="25m²"
-        roomsize_x2="28m²"
-        roomsize_x3="30m²"
-        imageURL="https://placehold.co/800x320"
-      />
-      <Card_horizontal
-        title="Cozy Style"
-        description="It is a decoration that focuses on creating a warm feeling for the residents. Mainly focusing on natural color tones."
-        roomsize_x1="25m²"
-        roomsize_x2="28m²"
-        roomsize_x3="30m²"
-        imageURL="https://placehold.co/800x320"
-      />
+      <a href="/Minimal">
+        <Card_horizontal
+          title="Minimal Style"
+          description="Simple decoration style emphasis on the use of minimal pieces of furniture. Each piece must be very useful. It also must not leave a simple design."
+          roomsize_x1="25m²"
+          roomsize_x2="28m²"
+          roomsize_x3="30m²"
+          imageURL="/img/Minimal_Pic_mini.svg"
+        />
+      </a>
+      <a href="/Cozy">
+        <Card_horizontal
+          title="Cozy Style"
+          description="It is a decoration that focuses on creating a warm feeling for the residents. Mainly focusing on natural color tones."
+          roomsize_x1="25m²"
+          roomsize_x2="28m²"
+          roomsize_x3="30m²"
+          imageURL="/img/Cozy_Pic_mini.svg"
+        />
+      </a>
       <Botnav />
     </div>
   );

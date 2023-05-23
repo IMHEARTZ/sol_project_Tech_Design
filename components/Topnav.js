@@ -1,10 +1,12 @@
-function Topnav() {
+function Topnav({ link }) {
   return (
     <div className="Nav_wrapper">
       <div className="Nav_logo_wrap">
         <div className="Nav_logo">
           {" "}
-          <img src="/img/Logo.svg" />{" "}
+          <a href={link}>
+            <img src="/img/Logo.svg" />
+          </a>
         </div>
         <div className="Nav_logo_text"> DTH </div>
       </div>

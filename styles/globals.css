@@ -5,7 +5,7 @@
 /* .body {
   background: #f9f9f9;
 } */
-
+/* =================================================================================== */
 /* Heading Style */
 .Heading {
   font-size: 32px;
@@ -19,28 +19,24 @@
   border: 1px solid rgba(141, 141, 145, 1);
   margin: 80px 0px;
 }
+/* =================================================================================== */
 
+/* =================================================================================== */
 /* Nav-bar Style */
 .nav-bar {
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  right: 0; */
-
   background: #ffffff;
 }
 
 .Nav_wrapper {
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 32px 64px;
 }
 
-/* clear */
 .Nav_wrapper .Nav_logo_wrap {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -48,7 +44,7 @@
 }
 
 .Nav_wrapper .Roomsize_Style {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -56,16 +52,19 @@
   gap: 16px;
 }
 
-/* ใส่สี text ยังไง? */
 .Nav_wrapper .Start_Exploring {
   background: #222223;
   border-radius: 12px;
   padding: 20px 40px;
   color: white;
 }
+/* =================================================================================== */
 
+/* =================================================================================== */
+/* ฺBody 1 - ชื่อตาม Figma */
+/* Welcome Text */
 .Welcome_row {
-  border: 1px solid goldenrod;
+  /* border: 1px solid goldenrod; */
   margin: 90px 64px;
   display: flex;
   flex-direction: row;
@@ -74,7 +73,7 @@
 }
 
 .Welcome_text_wrapper {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -97,10 +96,12 @@
   padding: 20px 40px;
   color: white;
 }
+/* Welcome Text */
 
+/* แถบรูปภาพ */
 .Pic_show_wrapper {
   height: auto;
-  border: 1px solid rgb(255, 0, 0);
+  /* border: 1px solid rgb(255, 0, 0); */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -111,7 +112,7 @@
 .Pic_show_wrapper .Pic_show_wrapper_Left {
   /* width: 100%;
   height: auto; */
-  border: 1px solid rgb(23, 172, 192);
+  /* border: 1px solid rgb(23, 172, 192); */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -120,18 +121,20 @@
 }
 
 .Pic_show_wrapper .Pic_show_wrapper_Right {
-  border: 1px solid rgb(23, 172, 192);
+  /* border: 1px solid rgb(23, 172, 192); */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px 0px 32px;
   gap: 20px;
 }
-/* End of welcome style */
+/* แถบรูปภาพ */
+/* =================================================================================== */
 
-/* Sorting box sytle */
+/* =================================================================================== */
+/* Searching Bar & Dropdown - ชื่อตาม Figma */
 .Sorting_wrapper {
-  border: 0.5px solid purple;
+  /* border: 0.5px solid purple; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -141,7 +144,7 @@
 }
 
 .Sorting_wrapper .Search_wrapper {
-  border: 0.5px solid purple;
+  /* border: 0.5px solid purple; */
   width: 60%;
   display: flex;
   flex-direction: row;
@@ -154,7 +157,7 @@
 }
 
 .Sorting_wrapper .Search_wrapper .Text_Icon_Wrapper {
-  border: 0.5px solid red;
+  /* border: 0.5px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -171,7 +174,7 @@
 }
 
 .Sorting_wrapper .Roomsize_wrapper .Left_wrapper {
-  border: 0.5px solid red;
+  /* border: 0.5px solid red; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -185,7 +188,7 @@
   justify-content: space-between;
   gap: auto;
 
-  border: 0.5px solid blue;
+  /* border: 0.5px solid blue; */
   background: #ffffff;
   box-shadow: 0px 4px 15px rgba(20, 20, 43, 0.09);
   padding: 30px 24px 30px 24px;
@@ -193,7 +196,7 @@
 }
 
 .Sorting_wrapper .Style_wrapper .Left_wrapper {
-  border: 0.5px solid red;
+  /* border: 0.5px solid red; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -207,13 +210,15 @@
   justify-content: space-between;
   gap: auto;
 
-  border: 0.5px solid blue;
+  /* border: 0.5px solid blue; */
   background: #ffffff;
   box-shadow: 0px 4px 15px rgba(20, 20, 43, 0.09);
   padding: 30px 24px 30px 24px;
   border-radius: 12px;
 }
+/* =================================================================================== */
 
+/* =================================================================================== */
 /* Card Style */
 .card_wrapper {
   /* border: 2px solid purple; */
@@ -224,10 +229,7 @@
   /* border-radius: 24px; */
 }
 
-/* กรอบเส้นเหมือนของ Card Wrapper ไม่ได้อยู่แค่ตัวรูป */
 .card_wrapper .card_picture {
-  /* width: 100%; */
-  /* height: auto; */
   border-radius: 24px 24px 0px 0px;
   /* border: 1px solid rgb(250, 161, 27); */
 }
@@ -241,7 +243,6 @@
   border-radius: 0px 0px 24px 24px;
 }
 
-/* ขนาด Text ไม่ยอมเปลี่ยน */
 .card_wrapper .description .h3 {
   font-size: 22px;
 }
@@ -271,7 +272,7 @@
 }
 
 .card-row {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -281,9 +282,12 @@
 .card-row a {
   width: 33%;
 }
+/* =================================================================================== */
 
+/* =================================================================================== */
+/* Button */
 .button_wrapper {
-  border: 1px solid rgb(0, 4, 248);
+  /* border: 1px solid rgb(0, 4, 248); */
   margin: 0px 64px;
 
   display: flex;
@@ -294,15 +298,17 @@
 .button_wrapper .button {
   /* width: 10%; */
   padding: 0px 40px;
-  border: 1px solid rgb(0, 248, 12);
+  /* border: 1px solid rgb(0, 248, 12); */
   background: #ffffff;
   box-shadow: 0px 4px 15px rgba(20, 20, 43, 0.09);
   border-radius: 12px;
   margin: 64px 0px;
 }
+/* =================================================================================== */
 
+/* =================================================================================== */
 .Heading_wrapper {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -311,11 +317,11 @@
 }
 
 .Heading_wrapper .Room_size {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
 }
 
 .Heading_wrapper .Browse_all {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   background: #ffffff;
   box-shadow: 0px 4px 15px rgba(20, 20, 43, 0.09);
   border-radius: 12px;
@@ -323,7 +329,7 @@
 }
 
 .Heading_wrapper2 {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -332,21 +338,23 @@
 }
 
 .Heading_wrapper2 .Room_size {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
 }
 
 .Heading_wrapper2 .Browse_all {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   background: #ffffff;
   box-shadow: 0px 4px 15px rgba(20, 20, 43, 0.09);
   border-radius: 12px;
   padding: 20px 40px;
 }
+/* =================================================================================== */
 
+/* =================================================================================== */
 /* การ์ดแนวนอน */
 /* :Horizontal Card Style */
 .card_horizontal_wrapper {
-  border: 2px solid rgb(231, 67, 231);
+  /* border: 2px solid rgb(231, 67, 231); */
   /* width: 50%; */
   display: flex;
   flex-direction: row;
@@ -400,11 +408,12 @@
   border-radius: 28px;
   align-items: center;
 }
+/* =================================================================================== */
 
-/* Botnav_css */
-
+/* =================================================================================== */
+/* Botnav */
 .Botnav_wrapper {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* display: flex;
   flex-direction: row; */
   /* align-items: space-between; */
@@ -421,7 +430,7 @@
 }
 
 .Botnav_wrapper .Contact_wrap {
-  border: 1px solid blueviolet;
+  /* border: 1px solid blueviolet; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -431,22 +440,22 @@
 }
 
 .Botnav_wrapper .Contact_wrap .Explore {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   width: 25%;
 }
 
 .Botnav_wrapper .Contact_wrap .Contact {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 25%;
 }
 
 .Botnav_wrapper .Contact_wrap .Follow_Us {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   width: 25%;
 }
 
 .Botnav_wrapper .Contact_wrap .Follow_Us .Follow_Us_icon_wrapper {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -455,7 +464,7 @@
 }
 
 .Botnav_wrapper .Contact_wrap .Dektanghor_Guarantee {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 25%;
 }
 
@@ -464,10 +473,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
+/* =================================================================================== */
 
+/* =================================================================================== */
 /* card หน้าสไตล์ */
 .Style_card_wrapper {
-  border: 1px solid rgb(128, 0, 0);
+  /* border: 1px solid rgb(128, 0, 0); */
   display: flex;
   position: relative;
   flex-direction: row;
@@ -481,12 +492,12 @@
   /* position: absolute; */
   width: 60%;
   /* height: 30%; */
-  border: 3px solid #4621ad;
+  /* border: 3px solid #4621ad; */
 }
 
 .Style_card_wrapper .description_box_wrapper .description_wrapper {
-  border: 1px solid rgb(230, 157, 0);
-  background: FFFFFFk;
+  /* border: 1px solid rgb(230, 157, 0); */
+  background: rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 20px rgba(186, 186, 186, 0.25);
   border-radius: 24px;
   padding: 60px 80px;
@@ -498,5 +509,7 @@
   width: 40%;
   height: 40%;
   align-items: center;
-  border: 3px solid #73ad21;
+  /* border: 3px solid #73ad21; */
 }
+/* =================================================================================== */
+
