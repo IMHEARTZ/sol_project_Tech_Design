@@ -1,6 +1,4 @@
 import Topnav from "@/components/Topnav";
-import Pic_show from "@/components/Pic_show";
-import Sorting_box from "@/components/Sorting_box";
 import Head from "next/head";
 import Style_card from "@/components/Style_card";
 import Card from "@/components/Card";
@@ -50,11 +48,16 @@ function Minimal() {
           />
         </a>
       </div>
-      <div class="Heading">
-        <h1>Recomended for you</h1>
+      <div className="Heading_wrapper2">
+        <div class="Style">
+          <h1>Latest posts</h1>{" "}
+        </div>
+        <div class="Browse_all">
+          <h2>Browse all</h2>
+        </div>
       </div>
       <div class="card-row">
-        <a href="/card/one">
+        <a>
           <Card
             title="A small modern bedroom that can show off your right side."
             style="cozy"

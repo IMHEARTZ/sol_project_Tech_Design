@@ -8,7 +8,10 @@ function Topnav({ link }) {
             <img src="/img/Logo.svg" />
           </a>
         </div>
-        <div className="Nav_logo_text"> DTH </div>
+        <div className="Nav_logo_text">
+          {" "}
+          <a href={link}> DTH </a>
+        </div>
       </div>
       <div className="Roomsize_Style">
         <div className="Roomsize"> Room Size</div>
