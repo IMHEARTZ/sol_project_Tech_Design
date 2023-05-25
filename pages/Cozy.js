@@ -4,7 +4,7 @@ import Style_card from "@/components/Style_card";
 import Card from "@/components/Card";
 import Botnav from "@/components/Botnav";
 
-function Minimal() {
+function Cozy() {
   return (
     <div>
       <Head>
@@ -13,20 +13,20 @@ function Minimal() {
       {/* <Nav /> */}
       <Topnav link="/" />
       <div class="Heading">
-        <h1>Minimal Style</h1>
+        <h1>Cozy Style</h1>
       </div>
       <a>
         <Style_card
-          style="Minimal Style"
+          style="Cozy Style"
           description="Simple decoration style emphasis on the use of minimal pieces of furniture. Each piece must be very useful. It also must not leave a simple design."
-          imageURL="/img/Minimal_Pic.svg"
+          imageURL="/img/Cozy_Pic.svg"
         />
       </a>
       <div class="card-row">
         <a>
           <Card
             title="Idea to decorate a 25 m² room to become your dream room."
-            style="Minimal"
+            style="Cozy"
             roomsize="25m²"
             imageURL=" /img/Room_6.svg"
           />
@@ -34,7 +34,7 @@ function Minimal() {
         <a>
           <Card
             title="Flexible living room with space to sleep and relax."
-            style="Minimal"
+            style="Cozy"
             roomsize="28m²"
             imageURL=" /img/Room_7.svg"
           />
@@ -42,7 +42,7 @@ function Minimal() {
         <a>
           <Card
             title="A modern space full of calming bedroom ideas."
-            style="Minimal"
+            style="Cozy"
             roomsize="30 m²"
             imageURL=" /img/Room_9.svg"
           />
@@ -116,4 +116,4 @@ function Minimal() {
   );
 }
 
-export default Minimal;
+export default Cozy;
