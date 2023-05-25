@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities; */
 
-/* .body {
-  background: #f9f9f9;
-} */
 /* =================================================================================== */
 /* Heading Style */
 .Heading {
@@ -18,6 +15,24 @@
   color: rgba(141, 141, 145, 1);
   border: 1px solid rgba(141, 141, 145, 1);
   margin: 80px 0px;
+}
+
+.line_page_wrapper {
+  /* border: 1px solid rgb(43, 252, 241); */
+  margin: 64px;
+}
+
+.line_page_wrapper .line_page {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #8d8d91;
+}
+
+.h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 32px;
 }
 /* =================================================================================== */
 
@@ -513,3 +528,171 @@
 }
 /* =================================================================================== */
 
+/* =================================================================================== */
+/* Style หน้า Room_Detail_X */
+.Pic_button_wrapper {
+  /* border: 1px solid rgb(128, 0, 0); */
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding-bottom: 132px;
+}
+
+Pic_button_wrapper .Pic_button_pic {
+  /* border: 1px solid rgb(111, 65, 235); */
+  width: 100%;
+}
+
+.Pic_button_wrapper .Button_wrapper {
+  /* border: 2px solid purple; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 64px;
+  position: absolute;
+  top: 480px;
+}
+
+.Pic_button_wrapper .Button_wrapper .Button_icon_wrap {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  background: #ffffff;
+  border-radius: 64px;
+  padding: 20px 40px;
+}
+
+.Pic_button_wrapper .Pic_button_show_wrapper {
+  /* border: 1px solid blue; */
+  border-radius: 32px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 35px 32px;
+  gap: 4px;
+
+  position: absolute;
+  top: 480px;
+  left: 70%;
+
+  background: #ffffff;
+  box-shadow: 0px 3px 20px rgba(186, 186, 186, 0.25);
+}
+
+.Pic_button_wrapper .Pic_button_show_wrapper .Pic_button_show {
+  /* border: 1px solid rgb(255, 17, 0); */
+  border-radius: 32px;
+}
+
+.Pic_button_wrapper .Text_wrapper {
+  /* border: 1px solid rgb(255, 17, 0); */
+  width: 60%;
+  margin-left: 64px;
+  margin-top: 40px;
+}
+
+.Pic_button_wrapper .Text_wrapper .Text_wrapper_top {
+  /* border: 1px solid rgb(38, 0, 255); */
+  margin-bottom: 102px;
+}
+
+.Pic_button_wrapper .Text_wrapper .Text_wrapper_top .Text_Wrapper_style {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #8d8d91;
+}
+
+.Pic_button_wrapper .Text_wrapper .Text_wrapper_top .Text_Wrapper_heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+/* =================================================================================== */
+
+/* =================================================================================== */
+/* Gallery carousel */
+.Gallery_wrapper {
+  /* border: 1px solid rgb(38, 0, 255); */
+  margin: 0px 64px;
+}
+
+.Gallery_wrapper .Gallery_Heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.Gallery_wrapper .Gallery_pic_wrapper {
+  /* border: 1px solid rgb(255, 145, 0); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+/* =================================================================================== */
+/* Product_card Style */
+.Product_card_wrapper {
+  /* border: 2px solid purple; */
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  margin: 10px;
+  border-radius: 24px 24px;
+}
+
+.Product_card_wrapper .Product_card_picture {
+  border-radius: 24px 24px 0px 0px;
+  /* border: 1px solid rgb(250, 161, 27); */
+}
+
+.Product_card_wrapper .description {
+  /* border: 1px solid green; */
+  padding-top: 32px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 0px 0px 24px 24px;
+}
+
+.Product_card_wrapper .description .h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.Product_card_wrapper .description .a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.Product_card_wrapper .description .Card_line {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #000000;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.Product_card_wrapper .description .Product_Card_bot_wrapper {
+  /* border: 1px solid rgb(233, 37, 233); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_wrapper .description .Style {
+  /* border: 1px solid salmon; */
+  font-size: 18px;
+}
+.card_wrapper .description .Roomsize {
+  /* border: 1px solid salmon; */
+  font-size: 18px;
+}
